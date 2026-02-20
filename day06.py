@@ -56,3 +56,21 @@ def calc(a,b):
 
 one, two = calc(5,6)
 # print(one, two)
+
+# 4. Lambda Function (Anonymous Function)
+
+square = lambda x: x * x
+# print(square(5))
+
+add = lambda a, b: a + b
+# print(add(5, 10))
+
+numbers = [1, 2, 3, 4]
+
+squares = list(map(lambda x: x*x, numbers))
+# print(squares)
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+even = list(filter(lambda x: x % 2 == 0, numbers))
+print(even)
